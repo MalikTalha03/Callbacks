@@ -1,0 +1,12 @@
+{
+  "name": "callbacks",
+  "version": "1.0.0",
+  "description": "Simple example of callbacks in Node.js. It adds two numbers or multiplies them depending on the callback function passed in.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "git repository": "https://github.com/MalikTalha03/Callbacks.git",
+  "author": "Malik-Talha",
+  "license": "ISC"
+}
