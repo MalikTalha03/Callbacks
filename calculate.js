@@ -1,3 +1,4 @@
+// calculate.js
 
 function performOperation(a, b, operation, callback) {
     const result = operation(a, b);
@@ -16,6 +17,9 @@ function callbackFunction(result) {
     console.log(`Callback function executed with result: ${result}`);
 }
 
-// Using the callback functions
-performOperation(5, 3, additionOperation, callbackFunction);
-performOperation(5, 3, multiplicationOperation, callbackFunction);
+module.exports = {
+    performOperation,
+    additionOperation,
+    multiplicationOperation,
+    callbackFunction,
+};
